@@ -30,7 +30,8 @@
 4. [ERD]
 5. [서비스 소개]
 6. [Git Branch]
-7. [시작하기]
+7. [Git 규칙]
+8. [시작하기]
 </br></br>
 ### 1. [팀원 소개]
 --- 
@@ -90,6 +91,10 @@
 </br></br>
 ### 6. [Git Branch]
 --- 
+</br></br>
+
+### 7. [Git 규칙]
+---
 4팀 git Convention 링크
 https://www.notion.so/git-ad62d1ea1cec4c4882ef2356a471f5d6
 </br></br>
