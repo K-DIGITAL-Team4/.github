@@ -30,7 +30,7 @@
 4. [ERD]
 5. [서비스 소개]
 6. [Git Branch]
-7. [Git 규칙]
+7. [ 규칙]
 8. [시작하기]
 </br></br>
 ### 1. [팀원 소개]
@@ -86,21 +86,50 @@
 7. ubuntu: 20.04 LTS
 8. JAVA: 17
 9. 기타 상세 버전 정보
-    - SpringBoot : build 도구 Maven 
+    - SpringBoot : build 도구 Maven 3.0.1
 ```
 </br></br>
 ### 6. [Git Branch]
 --- 
 </br></br>
 
-### 7. [Git 규칙]
+### 7. [협업 규칙]
 ---
-4팀 git Convention 링크
-https://www.notion.so/git-ad62d1ea1cec4c4882ef2356a471f5d6
+1. 네이밍 규칙
+- 클래스/컴포넌트/인터페이스/메소드 : PascalCase(파스칼 표기법)
+- 오브젝트/함수/인스턴스/변수/파라미터 : camelCalse(카멜 표기법)
+--- 
 </br></br>
+2. Git Convention
+- [태그: 제목] 형태이며 : 뒤에만 space가 있음을 유의한다.
+- feat: 새로운 기능 추가
+- fix: 버그 수정
+- docs: 문서 수정
+- style: 코드 포맷팅, 세미콜론 누락, 코드 변경이 없는 경우
+- refactoring: 코드 리펙토링
+- test: 테스트 코드, 리펙토링 테스트 코드 추가
+- chore: 빌드 업무 수정, 페키지 매니저 수정
+--- 
+</br></br>
+3. Git Commit 예시
+```cmd
+- docs: README추가
+- docs: abc.txt추가(abc.txt)
+- feat: 간단한 필터 적용
+- refactoring: upgrade gradle version to 5.2.1
+- chore: remove unnecessary files(파일명)
+```
 
 7. [시작하기]
 --- 
+```cmd
+# /backend/
+$ java -jar Project01.0.0.1-SNAPSHOT.jar
+
+# /frontend/
+$ npm install
+$ npm start
+```
 </br></br>
 
 
