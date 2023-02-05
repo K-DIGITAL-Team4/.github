@@ -90,6 +90,8 @@
 </br></br>
 ### 6. [Git Branch]
 --- 
+4팀 git Convention 링크
+https://www.notion.so/git-ad62d1ea1cec4c4882ef2356a471f5d6
 </br></br>
 
 7. [시작하기]
