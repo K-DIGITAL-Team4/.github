@@ -1,8 +1,6 @@
-# 사업용 차량 안전 운행 분석
+# 사업용 차량:truck: 안전 운행 분석
 
---- 
-
-### 개요
+### :art:개요
 - 사업용 차량의 운행 기록 데이터를 바탕으로 안전 운행에 대한 분석을 실시하고, 차량별 운전 위험도를 알려주는 서비스이다.
 
 ### 기획 배경(프로젝트가 해결하려고 하는 문제)
@@ -20,18 +18,22 @@
 - 지도에서 모의주행을 하며 위험 또는 돌발 구간을 알 수 있다.
 - 차량별 운전자의 운전습관 평가와 운행의 안전도를 분석할 것으로 기대 된다.
 
+### Project
+- 2023.01.11 ~ 2023.02.09
+- [Github - FrontEnd](https://github.com/K-Digital-Team4/Front_End)
+- [Github - BackEnd](https://github.com/K-Digital-Team4/BackEnd)
+- [Github - DataAnalysis](https://github.com/K-Digital-Team4/Data-analysis)
+
 --- 
 </br>
 
-## 차례  
+## :memo:차례  
 1. [팀원 소개]
-2. [주요 기술 스택]
-3. [아키텍쳐]
-4. [ERD]
-5. [서비스 소개]
-6. [Git Branch]
-7. [ 규칙]
-8. [시작하기]
+2. [주요 기술 스택] :hammer:
+3. [ERD] :wrench:
+4. [서비스 소개] :package:
+5. [규칙] :bulb:
+6. [시작하기] :tada:
 </br></br>
 ### 1. [팀원 소개]
 --- 
@@ -41,27 +43,24 @@
 - **박경관** - back_end, DB - https://github.com/kyunggwan  
 - **김찬준** - back_end, DB - https://github.com/ckswns879  
 </br></br>
-### 2. [주요 기술 스택]
+### 2. [주요 기술 스택]:hammer:
 
 --- 
 - FrontEnd
 <img src="https://img.shields.io/badge/ Figma-F24E1E?style=flat-square&logo=Figma&logoColor=ffffff" /> <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=React&logoColor=ffffff"/> 
 
 - BackEnd
-<img src="https://img.shields.io/badge/Spring Boot-6DB33F?style=flat-square&logo=SpringBoot&logoColor=ffffff" /> <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=MySQL&logoColor=ffffff" /> <img src="https://img.shields.io/badge/Amazon S3-569A31?style=flat-square&logo=Amazon S3&logoColor=ffffff" /> <img src="https://img.shields.io/badge/Amazon RDS-527FFF?style=flat-square&logo=Amazon RDS&logoColor=ffffff" />
+<img src="https://img.shields.io/badge/Spring Boot-6DB33F?style=flat-square&logo=SpringBoot&logoColor=ffffff" /> <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=MySQL&logoColor=ffffff" /> <img src="https://img.shields.io/badge/Amazon S3-569A31?style=flat-square&logo=Amazon S3&logoColor=ffffff" /> <img src="https://img.shields.io/badge/Amazon RDS-527FFF?style=flat-square&logo=Amazon RDS&logoColor=ffffff" /> <img src="https://img.shields.io/badge/Amazon EC2-FF9900?style=flat-square&logo=Amazon EC2&logoColor=ffffff" />
 
 - Collaboration Tools
  <img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=GitHub" />  <img src="https://img.shields.io/badge/Miro-yellow?style=flat-square&logo=Miro&logoColor=000000" /> <img src="https://img.shields.io/badge/ Google Sheets-34A853?style=flat-square&logo=Google Sheets&logoColor=ffffff" /> 
 </br></br>
-### 3. [아키텍쳐]
+
+### 3. [ERD] :wrench:
 --- 
-되는대로 구현할 것
+![ERD](https://user-images.githubusercontent.com/113881846/218421285-ea00b0e1-8270-44b8-b012-99c15590556b.png)
 </br></br>
-### 4. [ERD]
---- 
-되는대로 구현할 것
-</br></br>
-### 5. [서비스 소개]
+### 4. [서비스 소개] :package:
 --- 
 ##### FrontEnd 주요 버전
 ```cmd
@@ -69,62 +68,55 @@
 1. react : 18.2.0
 2. next : 12.3.1
 3. axios: 0.27.2
-4. recoil : 0.7.5
-5. mui : 5.10.8
-6. Visual Studio : 1.71.0
+4. Visual Studio : 1.71.0
 
 ```
 
 #### BackEnd 주요 버전
 ```cmd
 1. JVM : 1.8.0_192
-2. WAS : Tomcat 9.0.65
+2. WAS : apache-tomcat-9.0.71
 3. IntelliJ : IntelliJ IDEA 2021.3.2 (ultimate)
 4. springBootVer : '3.0.1'
-5. Docker : 20.10.17
-6. AWS RDS: 8.0.28
-7. ubuntu: 20.04 LTS
-8. JAVA: 17
-9. 기타 상세 버전 정보
+5. AWS RDS: 8.0.31
+6. ubuntu: 20.04 LTS
+7. JAVA: 17
+8. 기타 상세 버전 정보
     - SpringBoot : build 도구 Maven 3.0.1
 ```
 </br></br>
-### 6. [Git Branch]
---- 
-</br></br>
-
-### 7. [협업 규칙]
+### 5. [협업 규칙] :bulb:
 ---
 1. 네이밍 규칙
 - 클래스/컴포넌트/인터페이스/메소드 : PascalCase(파스칼 표기법)
 - 오브젝트/함수/인스턴스/변수/파라미터 : camelCalse(카멜 표기법)
---- 
 </br></br>
 2. Git Convention
 - [태그: 제목] 형태이며 : 뒤에만 space가 있음을 유의한다.
-- feat: 새로운 기능 추가
-- fix: 버그 수정
-- docs: 문서 수정
-- style: 코드 포맷팅, 세미콜론 누락, 코드 변경이 없는 경우
-- refactoring: 코드 리펙토링
-- test: 테스트 코드, 리펙토링 테스트 코드 추가
-- chore: 빌드 업무 수정, 페키지 매니저 수정
---- 
+- Feat: 새로운 기능 추가
+- Fix: 버그 수정
+- Docs: 문서 수정
+- Style: 코드 포맷팅, 세미콜론 누락, 코드 변경이 없는 경우
+- Refactor: 코드 리펙토링
+- Chore: 빌드 업무 수정, 패키지 매니저 수정
+- Design: 디자인 수정
+- Remove: 파일 삭제
+- Rename: 파일명 변경
 </br></br>
 3. Git Commit 예시
 ```cmd
-- docs: README추가
-- docs: abc.txt추가(abc.txt)
-- feat: 간단한 필터 적용
-- refactoring: upgrade gradle version to 5.2.1
-- chore: remove unnecessary files(파일명)
+- Docs: README추가
+- Remove: 명세서 파일 삭제
+- Feat: 간단한 필터 적용
+- Refactor: upgrade gradle version to 5.2.1
+- Rename: 파일명 변경
 ```
 
-7. [시작하기]
+### 6. [시작하기] :tada:
 --- 
 ```cmd
 # /backend/
-$ java -jar Project01.0.0.1-SNAPSHOT.jar
+$ java -jar project.jar
 
 # /frontend/
 $ npm install
